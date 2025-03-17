@@ -1,0 +1,35 @@
+body {
+    font-family: "Inclusive Sans", sans-serif;
+    background-color: #121212;
+    color: #FFFFFF;
+}
+
+nav {
+    width: 100%;
+}
+
+.navbar {
+    border: solid 3px #FFC72C;
+    border-radius: 100px;
+    margin-left: 10%;
+}
+
+nav .left-nav {
+    display: flex;
+    flex-direction: row;
+}
+
+nav p {
+    margin: 20px;
+    color: #E0E0E0;
+}
+
+nav p:hover {
+    border-bottom: 2px solid #FFC72C;
+    cursor: pointer;
+}
+
+nav .right-nav {
+    
+}
+
