@@ -80,28 +80,23 @@ nav img {
 
 .me {
     display: flex;
-    flex-direction: row;
     align-items: center;
+    justify-content: space-between;
     margin: 3% 10%;
-    gap: 0px;
+    gap: 50px;
+}
+
+.me img {
+    width: 450px;
+    max-width: 100%;
 }
 
 .me p {
     font-size: 30px;
-    margin-right: 7%;
-}
-
-.me p:first-child {
-    margin-left: 5%;
-}
-
-.me p:last-child {
-    margin-left: 3%;
 }
 
 .me h1 {
     font-size: 50px;
-    margin-left: 13%
 }
 
 .me b {
@@ -109,24 +104,25 @@ nav img {
 }
 
 .me button {
-    width: 250px;
+    width: 500px;
     height: 50px;
-    display: block;
-    margin: 20px auto; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px; 
     border: #FFC72C 5px solid;
     border-radius: 100px;
     cursor: pointer;
     font-size: 25px;
     background-color: #FFFFFF;
+    color: #121212;
+    align-self: flex-start;
 }
 
 .me button:hover {
     background-color: #E0E0E0;
 }
 
-.me img {
-    width: 450px;
-}
 
 .experience {
     text-align: center;
