@@ -67,15 +67,46 @@ nav img {
     padding: 0 20px;
 }
 
-.show {
-    padding: 50px;
+.showcase-container {
     display: flex;
-    gap: 50px;
-    justify-content: center;
+    align-items: center;
+    padding: 20px;
 }
 
-.show img {
-    width: 30%;
+.arrow {
+    height: 100px;
+}
+
+a.project-card {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  a.project-card:hover {
+    color: inherit;
+  }
+
+.project-card {
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    margin: 0 8%;
+    padding: 20px;
+}
+
+.project-card .content {
+    margin-left: 20px
+}
+
+.project-card h1{
+    color: #FFC72C;
+    font-size: 30px;
+}
+
+.project-card img {
+    width: 600px;
+    max-height: 400px;
 }
 
 .me {

@@ -1,7 +1,34 @@
 [
     {
+        "name": "Comparative Inference of COVID-19 Vaccine Efficacy",
+        "image": "https://www.cdc.gov/covid/media/images/2024/11/GettyImages-1773970411_1200x675.png?_=62128",
+        "alt": "Bayesian vs Frequentist Vaccine Efficacy Comparison",
+        "link": "https://github.com/justmai1/STAT342-Final/blob/main/STAT342FinalPaper.pdf",
+        "description": "Comparing Frequentist and Bayesian Approach to get the vaccine efficacy of BNT162b2. Based off study by New England Journal of Medicine",
+        "authors": "Justin Mai, Casey Lazik, Harry Schuckman"
+    },
+    {
+        "name": "Modern Salary Prediction Project",
+        "image": "https://onlinedegrees.sandiego.edu/wp-content/uploads/2024/02/ai-impact-on-job-market.jpg",
+        "alt": "AI job market",
+        "link": "https://github.com/troyrusso/STAT423/blob/main/salary-project-final.pdf",
+        "description": "Supporting modern job seekers understand job logistics by (1) Finding the best predictors to optimize model (2) Use model to predict salaries by splitting data",
+        "authors": "Justin Mai, Troy Russo, Isaac Muhlestein, Conan Li, Jian Kang"
+    },
+    {
+        "name": "FinanceU: Spending Habit Tracker / Savings App",
+        "image": "../img/financeU..png",
+        "alt": "FinanceU example",
+        "link": "https://github.com/justmai1/financeU-potential-savings?tab=readme-ov-file",
+        "description": "A hackathon app that utilizes live updating data visualizations to help teach concepts like investing and compound interest",
+        "authors": "Justin Mai, Christian Chung, Tristan Khieu"
+    },
+    {
         "name": "Seattle Housing Market Analysis",
-        "keywords": ["Linear Regression", "Prediction Modeling", "Model Diagnostics"],
-        "link": "https://github.com/justmai1/seattle-housing-market-analysis"
+        "image": "https://images.seattletimes.com/wp-content/uploads/2024/07/07082024_Seattle_Central_District-2024_165607.jpg?d=2040x1527",
+        "alt": "Seattle Housing",
+        "link": "https://github.com/justmai1/seattle-housing-market-analysis",
+        "description": "Help navigate the housing market in Seattle by understanding the key variables that impacts sales value, based off FRED and Zillow data",
+        "authors": "Justin Mai"
     }
 ]

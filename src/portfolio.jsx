@@ -1,4 +1,5 @@
-import { Link } from "react-router-dom"
+import projects from '../projects.json';
+import React, { useState } from 'react';
 
 export const Navbar = () => {
     return (
@@ -27,18 +28,41 @@ export const Navbar = () => {
     )
   }
 
-export const Showcase = () => {
-    return(
-    <section id="show">
-        <div className="show">
-            <img src="img/financeU..png" alt="financeU"/>
-            <img src="img/financeU..png" alt="financeU"/>
-            <img src="img/financeU..png" alt="financeU"/>
+  export const Showcase = () => {
+    const [currentIndex, setCurrentIndex] = useState(0);
+  
+    const handleNext = () => {
+      setCurrentIndex((prevIndex) => (prevIndex + 1) % projects.length);
+    };
+  
+    const handlePrev = () => {
+      setCurrentIndex((prevIndex) => (prevIndex - 1 + projects.length) % projects.length);
+    };
+  
+    const { name, image, alt, link, description, authors } = projects[currentIndex];
+  
+    return (
+      <section id="show">
+        <div className="showcase-container">
+          <button className="arrow left" onClick={handlePrev}>&lt;</button>
+          <a href={link} target="_blank" rel="noopener noreferrer" className="project-card">
+          <img src={image} alt={alt} className="project-image" />
+            <div className="content">
+              <h1>{name}</h1>
+              <div className="project-info">
+                <p>{description}</p>
+                <p><strong>Authors:</strong> {authors}</p>
+              </div>
+            </div>
+          </a>
+          <button className="arrow right" onClick={handleNext}>&gt;</button>
         </div>
-    </section>
-    )
-}
-
+      </section>
+    );
+  };
+  
+  
+  
 export const Me = () => {
     return(
         <section className="me" id="me">
@@ -47,7 +71,7 @@ export const Me = () => {
                 <p><b>Data Analyst. UW Statistics + Informatics Student. </b> 
                     Passionate about commincating stories and solutions through data, 
                     leaving a positive impact on my community.</p>
-                <button>Resume</button>
+                <a href="https://drive.google.com/file/d/1gJYDcYEq3DG2iF7TtUYhzdjPHuJmS37c/view?usp=sharing" target='_blank'><button>Resume</button></a>
             </div>
             <img src="img/me_enhanced.jpg.png" alt="Justin Mai"/>
         </section>
