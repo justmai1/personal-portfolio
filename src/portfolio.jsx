@@ -17,10 +17,10 @@ export const Navbar = () => {
           </div>
           <div className="right-nav">
             <a href="https://www.linkedin.com/in/justinmai1/" target="_blank" rel="noopener noreferrer">
-              <img src="img/linkedin.png" alt="Linkedin icon" />
+              <img src="https://github.com/justmai1/personal-portfolio/blob/main/img/linkedin.png?raw=true" alt="Linkedin icon" />
             </a>
             <a href="https://github.com/justmai1" target="_blank" rel="noopener noreferrer">
-              <img src="img/github.png" alt="Github icon" />
+              <img src="https://github.com/justmai1/personal-portfolio/blob/main/img/github.png?raw=true" alt="Github icon" />
             </a>
           </div>
         </div>
@@ -73,7 +73,7 @@ export const Me = () => {
                     leaving a positive impact on my community.</p>
                 <a href="https://drive.google.com/file/d/1gJYDcYEq3DG2iF7TtUYhzdjPHuJmS37c/view?usp=sharing" target='_blank'><button>Resume</button></a>
             </div>
-            <img src="img/me_enhanced.jpg.png" alt="Justin Mai"/>
+            <img src="https://github.com/justmai1/personal-portfolio/blob/main/img/me_enhanced.jpg.png?raw=true" alt="Justin Mai"/>
         </section>
     )
 }
