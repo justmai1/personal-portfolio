@@ -17,7 +17,7 @@
     },
     {
         "name": "FinanceU: Spending Habit Tracker / Savings App",
-        "image": "../img/financeU..png",
+        "image": "https://github.com/justmai1/personal-portfolio/blob/main/img/financeU..png?raw=true",
         "alt": "FinanceU example",
         "link": "https://github.com/justmai1/financeU-potential-savings?tab=readme-ov-file",
         "description": "A hackathon app that utilizes live updating data visualizations to help teach concepts like investing and compound interest",
