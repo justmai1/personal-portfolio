@@ -1,5 +1,8 @@
 {
   "projects": {
-    "default": "justin-mai-portfolio"
-  }
+    "default": "justin-mai-portfolio",
+    "jm-portfolio": "justin-mai-portfolio"
+  },
+  "targets": {},
+  "etags": {}
 }

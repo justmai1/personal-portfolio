@@ -84,6 +84,18 @@ export const Experience = () => {
         <div className="job-experiences">
             <h1>Experience</h1>
             <div className="scroll">
+
+                <div className="experience-item">
+                    <h2>Incoming Data Modeling Engineer @ <b>King County</b></h2>
+                    <h2><i>Jun 2025 - Sept 2025</i></h2>
+                    <p className="keywords">| BI | Data | Predictive Modeling | Wastewater Treatment |</p>
+                    <p className="description">
+                        Working with the Modeling Group for the Wastewater Treatment Division to inform decisions
+                        concerning water quality, public health, and environmental impacts. Developing summary statistics
+                        and dashboards.
+                    </p>
+                </div>
+
                 <div className="experience-item">
                     <h2>Teaching Assistant @ <b>UW: iSchool</b></h2>
                     <h2><i>Mar 2025 - Present</i></h2>
