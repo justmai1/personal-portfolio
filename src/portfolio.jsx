@@ -69,9 +69,9 @@ export const Me = () => {
             <div>
                 <h1>Hello 👋, I'm <b>Justin</b>!</h1>
                 <p><b>Data Analyst. UW Statistics + Informatics Student. </b> 
-                    Passionate about commincating stories and solutions through data, 
-                    leaving a positive impact on my community.</p>
-                <a href="https://drive.google.com/file/d/1gJYDcYEq3DG2iF7TtUYhzdjPHuJmS37c/view?usp=sharing" target='_blank'><button>Resume</button></a>
+                    Passionate about communicating solutions through data, creating data pipelines,
+                    and applying statistical and machine learning methods.</p>
+                <a href="https://drive.google.com/file/d/1-Oqc4nfStypIO88kMvfepUYZv_H9h15J/view?usp=sharing" target='_blank'><button>Resume</button></a>
             </div>
             <img src="https://github.com/justmai1/personal-portfolio/blob/main/img/me_enhanced.jpg.png?raw=true" alt="Justin Mai"/>
         </section>
@@ -85,9 +85,20 @@ export const Experience = () => {
             <h1>Experience</h1>
             <div className="scroll">
 
+            <div className="experience-item">
+                    <h2>Direct Admits Mentor @ <b>UW: Statistics Department</b></h2>
+                    <h2><i>Aug 2025 - Dec 2025</i></h2>
+                    <p className="keywords">| Higher-Level Education | Leadership | Statistics |</p>
+                    <p className="description">
+                      Mentor direct-admit students in the Statistics Department on managing coursework, navigating college life, 
+                      and planning career development.
+                    </p>
+                </div>
+                  
+
                 <div className="experience-item">
-                    <h2>Incoming Data Modeling Engineer @ <b>King County</b></h2>
-                    <h2><i>Jun 2025 - Sept 2025</i></h2>
+                    <h2>Data Engineer / Analyst Intern @ <b>King County</b></h2>
+                    <h2><i>Jun 2025 - Dec 2025</i></h2>
                     <p className="keywords">| BI | Data | Predictive Modeling | Wastewater Treatment |</p>
                     <p className="description">
                         Working with the Modeling Group for the Wastewater Treatment Division to inform decisions
@@ -146,7 +157,7 @@ export const Footer = () => {
         </div>
         <div className="copyright">
             <span className="material-icons" aria-label="copyright">copyright</span>
-            <p>Justin Mai 2025</p>
+            <p>Justin Mai - Updated: Sept. 2025</p>
         </div>
     </footer>
     )
