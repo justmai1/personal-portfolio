@@ -71,7 +71,7 @@ export const Me = () => {
                 <p><b>Data Analyst. UW Statistics + Informatics Student. </b> 
                     Passionate about communicating solutions through data, creating data pipelines,
                     and applying statistical and machine learning methods.</p>
-                <a href="https://drive.google.com/file/d/1-Oqc4nfStypIO88kMvfepUYZv_H9h15J/view?usp=sharing" target='_blank'><button>Resume</button></a>
+                <a href="https://drive.google.com/file/d/108G36Qj-7fBlAMQvZL3KUPRq7k3UhC-j/view?usp=sharing" target='_blank'><button>Resume</button></a>
             </div>
             <img src="https://github.com/justmai1/personal-portfolio/blob/main/img/me_enhanced.jpg.png?raw=true" alt="Justin Mai"/>
         </section>
@@ -84,6 +84,35 @@ export const Experience = () => {
         <div className="job-experiences">
             <h1>Experience</h1>
             <div className="scroll">
+
+            <div className="experience-item">
+                    <h2>Student @ <b>UW: iSchool + Statistics</b></h2>
+                    <h2><i>Sept 2022 - Present</i></h2>
+                    <p className="keywords">| Interdisciplinary | Data Science | Statistical Analysis |</p>
+                    <p className="description">
+                        Pursuing a double major in Informatics and Statistics has been a transformative experience, 
+                        providing me with a strong foundation for a career in data analysis. 
+                        My Statistics coursework equips me with the theoretical knowledge to deeply analyze complex data problems
+                        by applying regression modeling, hypothesis testing, probability theory, etc., 
+                        while my Informatics studies enhance my technical proficiency in tools like Python and SQL.
+                    </p>
+                </div>
+
+                <div className="experience-item">
+                    <h2>Systems Field Analyst Intern @ <b>Symbotic</b></h2>
+                    <h2><i>Incoming</i></h2>
+                </div>
+
+            <div className="experience-item">
+                    <h2>Teaching Assistant @ <b>UW: iSchool</b></h2>
+                    <h2><i>Mar 2025 - Present</i></h2>
+                    <p className="keywords">| Higher-Level Education | Database Design | SQL | Azure |</p>
+                    <p className="description">
+                        Teach 70+ students and lead lab sections of 35+ students. 
+                        Support students in learning SQL, ad-hoc analysis, and database design.
+                        Opportunity to present course materials and support students along their academic journies.
+                    </p>
+                </div>
 
             <div className="experience-item">
                     <h2>Direct Admits Mentor @ <b>UW: Statistics Department</b></h2>
@@ -104,30 +133,6 @@ export const Experience = () => {
                         Working with the Modeling Group for the Wastewater Treatment Division to inform decisions
                         concerning water quality, public health, and environmental impacts. Developing summary statistics
                         and dashboards.
-                    </p>
-                </div>
-
-                <div className="experience-item">
-                    <h2>Teaching Assistant @ <b>UW: iSchool</b></h2>
-                    <h2><i>Mar 2025 - Present</i></h2>
-                    <p className="keywords">| Higher-Level Education | Database Design | SQL | Azure |</p>
-                    <p className="description">
-                        Teach 70+ students and lead lab sections of 35+ students. 
-                        Support students in learning SQL, ad-hoc analysis, and database design.
-                        Opportunity to present course materials and support students along their academic journies.
-                    </p>
-                </div>
-
-                <div className="experience-item">
-                    <h2>Student @ <b>UW: iSchool + Statistics</b></h2>
-                    <h2><i>Sept 2022 - Present</i></h2>
-                    <p className="keywords">| Interdisciplinary | Data Science | Statistical Analysis |</p>
-                    <p className="description">
-                        Pursuing a double major in Informatics and Statistics has been a transformative experience, 
-                        providing me with a strong foundation for a career in data analysis. 
-                        My Statistics coursework equips me with the theoretical knowledge to deeply analyze complex data problems
-                        by applying regression modeling, hypothesis testing, probability theory, etc., 
-                        while my Informatics studies enhance my technical proficiency in tools like Python and SQL.
                     </p>
                 </div>
 
@@ -157,7 +162,7 @@ export const Footer = () => {
         </div>
         <div className="copyright">
             <span className="material-icons" aria-label="copyright">copyright</span>
-            <p>Justin Mai - Updated: Sept. 2025</p>
+            <p>Justin Mai - Updated: Jan. 2026</p>
         </div>
     </footer>
     )
