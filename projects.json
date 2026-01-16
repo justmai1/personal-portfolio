@@ -1,5 +1,13 @@
 [
     {
+        "name": "INFO Capstone - CyberAware",
+        "image": "https://cdn.prod.website-files.com/64945c3b6498f55f8967ddbd/66cc4fa3236d6014094cfd10_cyber-security-awareness.webp",
+        "alt": "CyberAware Project",
+        "link": "https://github.com/lhosoda/info490_capstone",
+        "description": "Supporting senior adults in preventing cybercrime",
+        "authors": "Justin Mai, Ryan Louie, Tristan Khieu, Megan Pham, Alex Han"
+    },
+    {
         "name": "Comparative Inference of COVID-19 Vaccine Efficacy",
         "image": "https://www.cdc.gov/covid/media/images/2024/11/GettyImages-1773970411_1200x675.png?_=62128",
         "alt": "Bayesian vs Frequentist Vaccine Efficacy Comparison",

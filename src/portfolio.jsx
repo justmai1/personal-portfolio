@@ -99,7 +99,7 @@ export const Experience = () => {
                 </div>
 
                 <div className="experience-item">
-                    <h2>Systems Field Analyst Intern @ <b>Symbotic</b></h2>
+                    <h2>Business Intelligence Engineer Intern @ <b>Amazon</b></h2>
                     <h2><i>Incoming</i></h2>
                 </div>
 
