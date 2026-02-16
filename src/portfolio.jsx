@@ -13,7 +13,6 @@ export const Navbar = () => {
             <a href="#show"><p>show</p></a>
             <a href="#me"><p>me</p></a>
             <a href="#experience"><p>experience</p></a>
-            <a href="#projects"><p>projects</p></a>
           </div>
           <div className="right-nav">
             <a href="https://www.linkedin.com/in/justinmai1/" target="_blank" rel="noopener noreferrer">
@@ -79,79 +78,99 @@ export const Me = () => {
 }
 
 export const Experience = () => {
-    return(
-    <div className="experience" id="experience">
-        <div className="job-experiences">
-            <h1>Experience</h1>
-            <div className="scroll">
+  return (
+      <div className="experience" id="experience">
+          <div className="job-experiences">
+              <h1>Experience</h1>
+              <div className="scroll">
 
-            <div className="experience-item">
-                    <h2>Student @ <b>UW: iSchool + Statistics</b></h2>
-                    <h2><i>Sept 2022 - Present</i></h2>
-                    <p className="keywords">| Interdisciplinary | Data Science | Statistical Analysis |</p>
-                    <p className="description">
-                        Pursuing a double major in Informatics and Statistics has been a transformative experience, 
-                        providing me with a strong foundation for a career in data analysis. 
-                        My Statistics coursework equips me with the theoretical knowledge to deeply analyze complex data problems
-                        by applying regression modeling, hypothesis testing, probability theory, etc., 
-                        while my Informatics studies enhance my technical proficiency in tools like Python and SQL.
-                    </p>
-                </div>
+                  <div className="experience-item">
+                      <h2>Student @ <b>UW: iSchool + Statistics</b></h2>
+                      <h2><i>Sept 2022 - Present</i></h2>
+                      <p className="keywords">| Interdisciplinary | Data Science | Statistical Analysis |</p>
+                      <p className="description">
+                          Double major in Informatics and Statistics, combining statistical modeling and probability theory with hands-on technical skills in Python and SQL to solve real-world data problems.
+                      </p>
+                  </div>
 
-                <div className="experience-item">
-                    <h2>Business Intelligence Engineer Intern @ <b>Amazon</b></h2>
-                    <h2><i>Incoming</i></h2>
-                </div>
+                  <div className="experience-item">
+                      <img
+                          src="https://www.pngmart.com/files/23/Amazon-Logo-White-PNG-Image.png"
+                          alt="Amazon Logo"
+                          className="logo"
+                      />
+                      <h2>Business Intelligence Engineer Intern @ <b>Amazon</b></h2>
+                      <h2><i>Incoming - <b>Talent Acquisition Data Analytics Team</b></i></h2>
+                  </div>
 
-            <div className="experience-item">
-                    <h2>Teaching Assistant @ <b>UW: iSchool</b></h2>
-                    <h2><i>Mar 2025 - Present</i></h2>
-                    <p className="keywords">| Higher-Level Education | Database Design | SQL | Azure |</p>
-                    <p className="description">
-                        Teach 70+ students and lead lab sections of 35+ students. 
-                        Support students in learning SQL, ad-hoc analysis, and database design.
-                        Opportunity to present course materials and support students along their academic journies.
-                    </p>
-                </div>
+                  <div className="experience-item">
+                      <img
+                          src="https://depts.washington.edu/infodocs/library_tech_tips/images/logo.png"
+                          alt="UW Logo"
+                          className="logo"
+                      />
+                      <h2>Teaching Assistant @ <b>UW: iSchool</b></h2>
+                      <h2><i>Mar 2025 - Present</i></h2>
+                      <p className="keywords">| Higher-Level Education | Database Design | SQL | Azure |</p>
+                      <p className="description">
+                          Teach 70+ students and lead lab sections of 35+ students. 
+                          <b> Support students in learning SQL, ad-hoc analysis, and database design</b>.
+                          Opportunity to present course materials and support students along their academic journeys.
+                      </p>
+                  </div>
 
-            <div className="experience-item">
-                    <h2>Direct Admits Mentor @ <b>UW: Statistics Department</b></h2>
-                    <h2><i>Aug 2025 - Dec 2025</i></h2>
-                    <p className="keywords">| Higher-Level Education | Leadership | Statistics |</p>
-                    <p className="description">
-                      Mentor direct-admit students in the Statistics Department on managing coursework, navigating college life, 
-                      and planning career development.
-                    </p>
-                </div>
-                  
+                  <div className="experience-item">
+                      <img
+                          src="https://www.pngkey.com/png/full/306-3068444_download-univ-of-washington-logo.png"
+                          alt="UW Logo"
+                          className="logo"
+                      />
+                      <h2>Direct Admits Mentor @ <b>UW: Statistics Department</b></h2>
+                      <h2><i>Aug 2025 - Dec 2025</i></h2>
+                      <p className="keywords">| Higher-Level Education | Leadership | Statistics |</p>
+                      <p className="description">
+                          Mentor direct-admit students in the Statistics Department on managing coursework, navigating college life, 
+                          and planning career development.
+                      </p>
+                  </div>
 
-                <div className="experience-item">
-                    <h2>Data Engineer / Analyst Intern @ <b>King County</b></h2>
-                    <h2><i>Jun 2025 - Dec 2025</i></h2>
-                    <p className="keywords">| BI | Data | Predictive Modeling | Wastewater Treatment |</p>
-                    <p className="description">
-                        Working with the Modeling Group for the Wastewater Treatment Division to inform decisions
-                        concerning water quality, public health, and environmental impacts. Developing summary statistics
-                        and dashboards.
-                    </p>
-                </div>
+                  <div className="experience-item">
+                      <img
+                          src="https://www.cev.washington.edu/files/kingcounty-logo.jpg"
+                          alt="King County Logo"
+                          className="logo"
+                      />
+                      <h2>Data Engineer / Analyst Intern @ <b>King County</b></h2>
+                      <h2><i>Jun 2025 - Dec 2025</i></h2>
+                      <p className="keywords">| BI | Data | Predictive Modeling | Wastewater Treatment |</p>
+                      <p className="description">
+                          Working with the <b>Modeling Group</b> for the Wastewater Treatment Division to inform decisions
+                          concerning water quality, public health, and environmental impacts. Developing summary statistics
+                          and dashboards.
+                      </p>
+                  </div>
 
-                <div className="experience-item">
-                    <h2>Data Analyst & Research Assistant @ <b>UW: Anti-Eviction Lab</b></h2>
-                    <h2><i>Mar 2024 - Sept 2024</i></h2>
-                    <p className="keywords">| Gentrification | GIS Mapping | Data Analysis |</p>
-                    <p className="description">
-                        The Anti-Eviction Lab at UW is partnered with the Anti-Eviction Mapping Project which is focused on storytelling 
-                        through mediums such as data visualizations, GIS maps, and oral histories that communicates acts of displacement 
-                        and resistance against gentrification. I was set to look deeper into neighborhoods in Seattle potentially facing 
-                        gentrification and displacement as locations to conduct oral histories at.
-                    </p>
-                </div>
-            </div>
-        </div>
-    </div>
-    )
-}
+                  <div className="experience-item">
+                      <img
+                          src="https://www.pngkey.com/png/full/306-3068444_download-univ-of-washington-logo.png"
+                          alt="UW Logo"
+                          className="logo"
+                      />
+                      <h2>Data Analyst & Research Assistant @ <b>UW: Anti-Eviction Lab</b></h2>
+                      <h2><i>Mar 2024 - Sept 2024</i></h2>
+                      <p className="keywords">| Gentrification | GIS Mapping | Data Analysis |</p>
+                      <p className="description">
+                          The Anti-Eviction Lab at UW is partnered with the <b>Anti-Eviction Mapping Project</b> which is focused on storytelling 
+                          through mediums such as data visualizations, GIS maps, and oral histories that communicate acts of displacement 
+                          and resistance against gentrification. I was set to look deeper into neighborhoods in Seattle potentially facing 
+                          gentrification and displacement as locations to conduct oral histories at.
+                      </p>
+                  </div>
+              </div>
+          </div>
+      </div>
+  );
+};
 
 export const Footer = () => {
     return(
@@ -162,7 +181,7 @@ export const Footer = () => {
         </div>
         <div className="copyright">
             <span className="material-icons" aria-label="copyright">copyright</span>
-            <p>Justin Mai - Updated: Jan. 2026</p>
+            <p>Justin Mai - Updated: Feb. 2026</p>
         </div>
     </footer>
     )
