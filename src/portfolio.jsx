@@ -13,7 +13,7 @@ export const Navbar = () => {
           <div className="left-nav">
             <Link to="/#show"><p>show</p></Link>
             <Link to="/#me"><p>me</p></Link>
-            <Link to="/#me"><p>experience</p></Link>
+            <Link to="/#experience"><p>experience</p></Link>
             <Link to="/projects"><p>projects</p></Link>
           </div>
           <div className="right-nav">
