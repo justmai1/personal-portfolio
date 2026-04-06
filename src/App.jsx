@@ -3,6 +3,7 @@ import './App.css'
 import "../css/style.css"
 import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
 import { Navbar, Showcase, Me, Experience, Footer } from './portfolio'
+import { Project } from './project';
 
 
 function App() {
@@ -19,6 +20,16 @@ function App() {
           <Footer/>
          </div>
         }/>
+        <Route
+          path="/projects"
+          element={
+            <div>
+              <Navbar />
+              <Project />
+              <Footer />
+            </div>
+          }
+        />
       </Routes>
     </Router>
   )

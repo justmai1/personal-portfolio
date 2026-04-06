@@ -1,5 +1,6 @@
 import projects from '../projects.json';
 import React, { useState } from 'react';
+import { Link } from "react-router-dom";
 
 export const Navbar = () => {
     return (
@@ -10,9 +11,10 @@ export const Navbar = () => {
         </div>
         <div className="navbar">
           <div className="left-nav">
-            <a href="#show"><p>show</p></a>
-            <a href="#me"><p>me</p></a>
-            <a href="#experience"><p>experience</p></a>
+            <Link to="/#show"><p>show</p></Link>
+            <Link to="/#me"><p>me</p></Link>
+            <Link to="/#me"><p>experience</p></Link>
+            <Link to="/projects"><p>projects</p></Link>
           </div>
           <div className="right-nav">
             <a href="https://www.linkedin.com/in/justinmai1/" target="_blank" rel="noopener noreferrer">
