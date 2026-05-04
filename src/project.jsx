@@ -43,15 +43,15 @@ export const Project = () => {
 
     const screenshots = [
         {
-            src: 'https://github.com/justmai1/personal-portfolio/blob/main/img/CyberAware-landing.png',
+            src: 'https://github.com/justmai1/personal-portfolio/blob/main/img/CyberAware-landing.png?raw=true',
             alt: 'CyberAware landing page'
         },
         {
-            src: 'https://github.com/justmai1/personal-portfolio/blob/main/img/CyberAware-module.png',
+            src: 'https://github.com/justmai1/personal-portfolio/blob/main/img/CyberAware-module.png$raw=true',
             alt: 'CyberAware modules example page'
         },
         {
-            src: 'https://github.com/justmai1/personal-portfolio/blob/main/img/CyberAware-chatbot.png',
+            src: 'https://github.com/justmai1/personal-portfolio/blob/main/img/CyberAware-chatbot.png$raw=true',
             alt: 'CyberAware chatbot page'
         }
     ];
