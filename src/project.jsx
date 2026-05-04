@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import useEmblaCarousel from 'embla-carousel-react';
 
 export const Project = () => {
@@ -39,12 +39,75 @@ export const Project = () => {
         }
     ];
 
+    const [currentScreenshot, setCurrentScreenshot] = useState(0);
+
+    const screenshots = [
+        {
+            src: '../img/CyberAware-landing.png',
+            alt: 'CyberAware landing page'
+        },
+        {
+            src: '../img/CyberAware-module.png',
+            alt: 'CyberAware modules example page'
+        },
+        {
+            src: '../img/CyberAware-chatbot.png',
+            alt: 'CyberAware chatbot page'
+        }
+    ];
+
+    const nextScreenshot = () => {
+        setCurrentScreenshot((prev) => 
+            prev === screenshots.length - 1 ? 0 : prev + 1
+        );
+    };
+
+    const prevScreenshot = () => {
+        setCurrentScreenshot((prev) => 
+            prev === 0 ? screenshots.length - 1 : prev - 1
+        );
+    };
+
     return(
         <section id='projects'>
             <div className='capstone'>
                 <h1 className='header'>
                     INFO Capstone - CyberAware
                 </h1>
+                <div className="project-slideshow">
+                <button 
+                    className="slideshow-button"
+                    onClick={prevScreenshot}
+                    aria-label="Previous screenshot"
+                >
+                    &lt;
+                </button>
+
+                <img 
+                    src={screenshots[currentScreenshot].src}
+                    alt={screenshots[currentScreenshot].alt}
+                    className="slideshow-image"
+                />
+
+                <button 
+                    className="slideshow-button"
+                    onClick={nextScreenshot}
+                    aria-label="Next screenshot"
+                >
+                    &gt;
+                </button>
+                </div>
+
+                <div className="slideshow-dots">
+                    {screenshots.map((_, index) => (
+                        <button
+                            key={index}
+                            className={`dot ${index === currentScreenshot ? 'active-dot' : ''}`}
+                            onClick={() => setCurrentScreenshot(index)}
+                            aria-label={`Go to screenshot ${index + 1}`}
+                        />
+                    ))}
+                </div>
                 <h2 className='description'>
                     A multi-service application designed to support cybersecurity education, awareness, and safe digital practices. The system is composed of a frontend client, backend API, supporting infrastructure, and a machine learning service. <b>Looking for enterprises willing to adopt CyberAware for their onboarding process</b>
                 </h2>
